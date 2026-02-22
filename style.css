@@ -1,0 +1,73 @@
+/* Global page styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eaf4ff; /* very light blue */
+  color: #1f2a44;
+}
+
+/* Main page container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+/* Header */
+.site-header {
+  margin-bottom: 24px;
+}
+
+.site-header h1 {
+  margin: 0 0 8px 0;
+  font-size: 2rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: #4b5d7a;
+}
+
+/* Card section */
+.card {
+  background: #ffffff;
+  border: 1px solid #d6e7ff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(30, 60, 120, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+/* Button */
+button {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border: 1px solid #9fc4ff;
+  border-radius: 8px;
+  background-color: #dcebff;
+  color: #1f2a44;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+button:hover {
+  background-color: #cfe3ff;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+/* Message text */
+.message {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #244a8f;
+}
