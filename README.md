@@ -1,1 +1,1 @@
-# thoughts.github.io
+# writing
